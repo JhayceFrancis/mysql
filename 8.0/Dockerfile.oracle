@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM oraclelinux:9-slim
+FROM oraclelinux:9-slim-fips
 
 RUN set -eux; \
 	groupadd --system --gid 999 mysql; \
